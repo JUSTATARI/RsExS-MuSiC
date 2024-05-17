@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sourcemass/Sourcer",
+    "https://github.com/JUSTATARI/RsExS-MuSiC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,13 +65,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "Tepthon"
+    "CHANNEL_SUDO", "MaTrix_MusicAr"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "𝑇𝑒𝑎𝑚 𝑇𝑒𝑝𝑡ℎ𝑜𝑛"
+    "YAFA_NAME", "• Team RsEXS سورس ريسكس •"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Tepthon"
+   " YAFA_CHANNEL", "https://t.me/MaTrix_MusicAr"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
