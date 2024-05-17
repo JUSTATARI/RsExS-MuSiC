@@ -7,11 +7,11 @@
 #
 # All rights reserved.
 
-from YukkiMusic.core.bot import YukkiBot
-from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
-from YukkiMusic.core.userbot import Userbot
-from YukkiMusic.misc import dbb, heroku, sudo
+from RsExSMusic.core.bot import YukkiBot
+from RsExSMusic.core.dir import dirr
+from RsExSMusic.core.git import git
+from RsExSMusic.core.userbot import Userbot
+from RsExSMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
