@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RsExS Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1488114134").split())
+    map(int, getenv("OWNER_ID", "6855645033").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -65,13 +65,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "MaTrix_MusicAr"
+    "CHANNEL_SUDO", "vvizinn"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
     "YAFA_NAME", "• Team RsEXS سورس ريسكس •"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/MaTrix_MusicAr"
+   " YAFA_CHANNEL", "https://t.me/vvizinn"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
