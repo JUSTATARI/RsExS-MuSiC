@@ -54,7 +54,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("YukkiMusic.plugins" + all_module)
+        importlib.import_module("RsExSMusic.plugins" + all_module)
     LOGGER("RsExSMusic.plugins").info(
         "تم تحميل الاضافات ...✓"
     )
