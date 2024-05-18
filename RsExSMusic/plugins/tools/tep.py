@@ -7,8 +7,8 @@ from pyrogram import filters
 from pyrogram import Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
-from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from YukkiMusic import app
+from RsExSMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from RsExSMusic import app
 
 
 
