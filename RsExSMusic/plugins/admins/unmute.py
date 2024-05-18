@@ -12,11 +12,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
+from RsExSMusic import app
 from strings.filters import command
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_muted, mute_off
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from RsExSMusic.core.call import Yukki
+from RsExSMusic.utils.database import is_muted, mute_off
+from RsExSMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 UNMUTE_COMMAND = get_command("UNMUTE_COMMAND")
