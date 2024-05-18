@@ -33,7 +33,7 @@ async def init():
         and not config.STRING5
     ):
         LOGGER("RsExSMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+            "كود جلسة الحساب المساعد غير مدعوم ..."
         )
         return
     if (
@@ -56,7 +56,7 @@ async def init():
     for all_module in ALL_MODULES:
         importlib.import_module("YukkiMusic.plugins" + all_module)
     LOGGER("RsExSMusic.plugins").info(
-        "Successfully Imported Modules "
+        "تم تحميل الاضافات ...✓"
     )
     await userbot.start()
     await Yukki.start()
@@ -66,13 +66,13 @@ async def init():
         )
     except NoActiveGroupCall:
         LOGGER("RsExSMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+            "خطأ .. قم بفتح المكالمة في مجموعة السجل الخاصه بك\n\nجارِ ايقاف بوت الميوزك . . ."
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("RsExSMusic").info("Yukki Music Bot Started Successfully")
+    LOGGER("RsExSMusic").info("RsExS_MusicAr")
     await idle()
 
 
