@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
 import asyncio
 
 from pyrogram import filters
@@ -18,18 +9,18 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from RsExSMusic import Telegram, YouTube, app
-from RsExSMusic.misc import SUDOERS
-from RsExSMusic.plugins.play.playlist import del_plist_msg
-from RsExSMusic.plugins.sudo.sudoers import sudoers_list
-from RsExSMusic.utils.database import (add_served_chat,
+from MatrixMusic import Telegram, YouTube, app
+from MatrixMusic.misc import SUDOERS
+from MatrixMusic.plugins.play.playlist import del_plist_msg
+from MatrixMusic.plugins.sudo.sudoers import sudoers_list
+from MatrixMusic.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from RsExSMusic.utils.decorators.language import LanguageStart
-from RsExSMusic.utils.inline import (help_pannel, private_panel,
+from MatrixMusic.utils.decorators.language import LanguageStart
+from MatrixMusic.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
