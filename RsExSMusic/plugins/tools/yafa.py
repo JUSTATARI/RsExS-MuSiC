@@ -11,7 +11,7 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from telegraph import upload_file
 from traceback import format_exc
-from YukkiMusic import app
+from RsExSMusic import app
 
 
 @app.on_message(command(["ترجمة","/tr"]))
