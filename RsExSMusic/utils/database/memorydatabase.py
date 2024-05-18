@@ -10,7 +10,7 @@
 
 import config
 from config import PRIVATE_BOT_MODE
-from YukkiMusic.core.mongo import mongodb
+from RsExSMusic.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
