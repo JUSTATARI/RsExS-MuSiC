@@ -17,9 +17,9 @@ from pyrogram.raw import types
 import config
 from config import adminlist, chatstats, clean, userstats
 from strings import get_command
-from YukkiMusic import app, userbot
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (get_active_chats,
+from RsExSMusic import app, userbot
+from RsExSMusic.misc import SUDOERS
+from RsExSMusic.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        get_particular_top,
                                        get_served_chats,
@@ -27,8 +27,8 @@ from YukkiMusic.utils.database import (get_active_chats,
                                        is_cleanmode_on, set_queries,
                                        update_particular_top,
                                        update_user_top)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.formatters import alpha_to_int
+from RsExSMusic.utils.decorators.language import language
+from RsExSMusic.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
