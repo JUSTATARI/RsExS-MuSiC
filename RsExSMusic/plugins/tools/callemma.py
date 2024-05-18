@@ -4,7 +4,7 @@ from strings import get_command
 from strings.filters import command
 from typing import Union
 from pyrogram.types import Message, VoiceChatStarted, VoiceChatEnded
-from YukkiMusic import app
+from RsExSMusic import app
 
 @app.on_message(filters.voice_chat_started)
 async def babloo(client: Client, message: Message): 
